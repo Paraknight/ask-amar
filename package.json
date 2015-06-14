@@ -1,0 +1,33 @@
+{
+  "name": "ask-amar",
+  "version": "1.0.0",
+  "description": "A simple embeddable advice column",
+  "scripts": {
+    "start": "lsc ask-amar.ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paraknight/ask-amar.git"
+  },
+  "keywords": [
+    "advice",
+    "column",
+    "agony",
+    "aunt",
+    "uncle",
+    "embed",
+    "embeddable",
+    "manyland",
+    "ask",
+    "amar"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paraknight/ask-amar/issues"
+  },
+  "homepage": "https://github.com/Paraknight/ask-amar#readme",
+  "dependencies": {
+    "LiveScript": "^1.3.1"
+  }
+}
