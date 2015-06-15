@@ -2,31 +2,31 @@ doctype html
 html(lang="en")
 	head
 		title Ask Amar
-		script(type='text/javascript').
-			if (foo) {
-				 bar(1 + 5)
-			}
+
+		link(rel='stylesheet', href='/index.css')
+		//script(src='/index.js')
+
 	body
 		h1 Ask Amar
+		h2 Answsers, Advice, Aid, #[a(target='_blank', href='mailto:ask@amar.io?Subject=Ask%20Amar') Ask]
 		#entries
 			.entry
-				.date Sun 14 2015
-				.question Has Anyone Really Been Far Even as Decided to Use Even Go Want to do Look More Like?
-				.answer.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Praesent consectetur sed mauris varius tincidunt.
-					Donec tellus nisl, feugiat sed eros non, pretium egestas mauris.
+				.date Mon 15 Jun 2015
+				h3.question What is this?
+				.answer
+					p.
+						This is an simple, sussinct, daily #[a(target='_blank', href='https://en.wikipedia.org/wiki/Advice_column') Advice Column].
+						All questions are anonymous, and there are no restrictions on what you can ask. Ask away!
 			.entry
-				.date Sun 14 2015
-				.question Has Anyone Really Been Far Even as Decided to Use Even Go Want to do Look More Like?
-				.answer.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Praesent consectetur sed mauris varius tincidunt.
-					Donec tellus nisl, feugiat sed eros non, pretium egestas mauris.
-			.entry
-				.date Sun 14 2015
-				.question Has Anyone Really Been Far Even as Decided to Use Even Go Want to do Look More Like?
-				.answer.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Praesent consectetur sed mauris varius tincidunt.
-					Donec tellus nisl, feugiat sed eros non, pretium egestas mauris.
+				.date Sun 14 Jun 2015
+				h3.question Has Anyone Really Been Far Even as Decided to Use Even Go Want to do Look More Like?
+				.answer
+					p.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Praesent consectetur sed mauris varius tincidunt.
+						Donec tellus nisl, feugiat sed eros non, pretium egestas mauris.
+					p.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Praesent consectetur sed mauris varius tincidunt.
+						Donec tellus nisl, feugiat sed eros non, pretium egestas mauris.
+		#more #[a(href='#') More]

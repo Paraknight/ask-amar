@@ -7,7 +7,7 @@
   log = function(){
     var args;
     args = slice$.call(arguments);
-    console.log.call(console, ([new Date()].concat(args)).join(" "));
+    console.log.call(console, ([new Date()].concat(args)).join(' '));
   };
   app = connect();
   app.use(ecstatic({
